@@ -22,19 +22,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'SMTP AQUI';
         $mail->SMTPAuth = true;
-        $mail->Username = 'SEU EMAIL@gmail.com';
+        $mail->Username = 'SEU EMAIL AQUI';
         $mail->Password = 'SENHA AQUI';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = PORTA AQUI;
 
         $mail->Debugoutput = function ($str, $level) {
             file_put_contents('../jorge.log', $str, FILE_APPEND);
         };
 
         $mail->setFrom($email_autor, $nome_autor);
-        $mail->addAddress('SEU EMAIL@gmail.com', 'SEU NOME');
+        $mail->addAddress('SEU EMAIL AQUI', 'SEU NOME');
 
         $mail->isHTML(true);
         $mail->Subject = $assunto_autor;
