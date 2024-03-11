@@ -1,0 +1,250 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f7ff;
+}
+
+#searchForm {
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, visibility 0.5s ease, opacity 0.5s ease;
+  position: absolute;
+  opacity: 0;
+  margin-top: 45px;
+  width: auto;
+  display: block;
+  right: 0;
+}
+
+.textarea-form {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px #ccc;
+  transition: all 0.1s ease-in-out;
+  resize: none;
+}
+
+.textarea-form:hover {
+  box-shadow: 0 0 0 3px #eee;
+}
+
+.textarea-form:focus {
+  border: solid 2px #1e73be;
+  outline: none;
+  box-shadow: none;
+}
+
+.caminho-pao {
+  color: inherit;
+}
+
+.breadcrumb-item.active {
+  color: #1e73be;
+}
+
+.nav-link,
+.nav-logo,
+.btn-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-logo:hover,
+.btn-animation:hover {
+  transform: scale(1.05);
+}
+
+.select-categoria {
+  color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px #ccc;
+  transition: all 0.1s ease-in-out;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.box-ciberbrasil,
+.box-categorias {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-blog-image {
+  margin: 20px auto auto auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.cabecalho {
+  padding: 60px 60px 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.textarea-form {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px #ccc;
+  transition: all 0.1s ease-in-out;
+  resize: none;
+}
+
+.textarea-form:hover {
+  box-shadow: 0 0 0 3px #eee;
+}
+
+.textarea-form:focus {
+  border: solid 2px #1e73be;
+  outline: none;
+  box-shadow: none;
+}
+
+.post-button {
+  font-size: 17px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+.footer-main {
+  background-color: #1e73be;
+  color: white;
+  padding: 20px 0;
+  border-top: 5px solid #0044d0;
+}
+
+.footer-main a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-main .site:hover {
+  color: #333;
+  transition: all 0.1s ease-in-out;
+}
+
+.footer-main h5::after {
+  background-color: white;
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  margin-top: 10px;
+}
+
+.footer-main .item-rede-social i {
+  font-size: 24px;
+}
+
+.footer-main .item-rede-social:hover {
+  cursor: pointer;
+}
+
+.footer-main .item-rede-social {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #3f3f3f;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-main .item-rede-social a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.footer-main .item-rede-social.instagram::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 0;
+}
+
+.footer-main .item-rede-social.github::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #24292e, #c9510c, #6cc644);
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 0;
+}
+
+.footer-main .item-rede-social.linkedin::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #0077b5, #00a0dc, #313335);
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 0;
+}
+
+.footer-main .item-rede-social.instagram:hover::after,
+.footer-main .item-rede-social.github:hover::after,
+.footer-main .item-rede-social.linkedin:hover::after {
+  opacity: 1;
+}
+
+.footer-alinhamento {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer-alinhamento {
+    justify-content: left;
+    text-align: left;
+    align-items: start;
+  }
+}
