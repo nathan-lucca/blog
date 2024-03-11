@@ -2,7 +2,7 @@
 
 Olá! Bem-vindo ao repositório do projeto CiberBrasil Blog. Este é um blog interativo onde os usuários podem ver postagens, comentar em postagens, responder a comentários de outras pessoas, criar novas postagens e filtrar postagens por categorias.
 
-## 🌐 Visite o [CiberBrasil Blog](http://www.ciberbrasil.byethost18.com/index.php)
+## 🌐 Visite o <a href="http://www.ciberbrasil.byethost18.com/index.php" target="_blank">CiberBrasil Blog</a>
 
 Você pode ver o blog em ação no link acima. Este blog é um exemplo do que você pode criar com este projeto.
 
@@ -41,7 +41,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md par
 ## 📸 Imagens Demonstrativas
 
 Aqui você encontrará algumas imagens demonstrativas do projeto em funcionamento.<br><br>
-![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743635463311420/image.png?ex=66017fd0&is=65ef0ad0&hm=4126b078e1ef295483640ac021297a7a8e15fa13c7a491addc22355e41eed048&=&format=webp&quality=lossless&width=687&height=328 "Página Princial")
-![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743763234259005/image.png?ex=66017fef&is=65ef0aef&hm=c92be92f33a9b7b4806a8995d5c4d5c07954be08120a9e0247fa1d1ee09de3c7&=&format=webp&quality=lossless&width=687&height=328 "Página de 'Post'")
+![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743635463311420/image.png?ex=66017fd0&is=65ef0ad0&hm=4126b078e1ef295483640ac021297a7a8e15fa13c7a491addc22355e41eed048&=&format=webp&quality=lossless&width=687&height=330 "Página Princial")
+![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743763234259005/image.png?ex=66017fef&is=65ef0aef&hm=c92be92f33a9b7b4806a8995d5c4d5c07954be08120a9e0247fa1d1ee09de3c7&=&format=webp&quality=lossless&width=687&height=330 "Página de 'Post'")
 ![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743861020262531/image.png?ex=66018006&is=65ef0b06&hm=e2f6230896ded1cddda942f54eae46a14653b0a70623dddca539f89a08b263db&=&format=webp&quality=lossless&width=687&height=330 "Página 'Sobre Nós'")
-![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743953286828112/image.png?ex=6601801c&is=65ef0b1c&hm=e4331a86ff6b9dbf25e0f31899631942fea7ccb5a70aee24e4d765c019f85979&=&format=webp&quality=lossless&width=1382&height=662 "Página 'Contate-nos'")
+![alt text](https://media.discordapp.net/attachments/1086113858369896478/1216743953286828112/image.png?ex=6601801c&is=65ef0b1c&hm=e4331a86ff6b9dbf25e0f31899631942fea7ccb5a70aee24e4d765c019f85979&=&format=webp&quality=lossless&width=687&height=330 "Página 'Contate-nos'")
